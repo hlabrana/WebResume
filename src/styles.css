@@ -1,0 +1,32 @@
+
+body{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.MainBox{
+    border: 1px black solid;
+    margin: 4%;
+    height: 670px;
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.7);
+}
+
+.setBorder{
+    border: 1px black solid;
+    height: 670px;
+}
+
+.rightFrame{
+    display: grid;
+    margin: 0;
+    padding: 0;
+}
+
+.rightFrame button{
+    width: 100%;
+}
+
+.rightFrame button:hover{
+    background: lightblue;
+}
