@@ -17,6 +17,12 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
     height: 670px;
 }
 
+.leftFrame{
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .rightFrame{
     display: grid;
     margin: 0;
@@ -29,4 +35,59 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 
 .rightFrame button:hover{
     background: lightblue;
+}
+
+.rightFrame button:hover i{
+    font-size: 80px;
+}
+
+.globalbox{
+    border: 1px black solid;
+    margin: 20px;
+    height: 620px;
+}
+
+.presentationCard{
+    border: 1px black solid;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: mintcream;
+    font-size: 20px;
+    background: #1e3c72;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.presentationCard img{
+    display: flex;
+    border-radius: 50%;
+    height: 250px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.information{
+    border: 1px black solid;
+}
+
+.SocialBar a i{
+    padding: 10px;
+}
+
+.SocialBar a i:hover{
+    font-size: 30px;
+    color: paleturquoise;
+}
+
+.resumebox{
+    padding-top: 20px;
+}
+
+.resumebox button{
+    color: white;
+}
+
+.verticalbox{
+    height: 50px;
 }
